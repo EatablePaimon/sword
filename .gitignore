@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtualenv
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# wordlib: 仅保留示例词库，其余 txt 不纳入版本控制
+wordlib/*.txt
+!wordlib/示例.txt
